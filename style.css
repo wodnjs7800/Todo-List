@@ -1,0 +1,92 @@
+*{
+    margin: 0; padding: 0;
+    color: white;
+}
+body{
+    height: 100vh;
+    background-size: cover;
+}
+.hidden{
+    display: none;
+}
+#main{
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+}
+#left{
+    top: 100px;
+    width: 600px; height: 700px;
+    margin: auto;
+    position: relative;
+    float: left;
+}
+#right{
+    left: 50px; top: 100px;
+    width: 300px; height: 600px;
+    position: relative;
+    padding: 50px;
+    float: left;
+    background-color: rgb(25, 12, 52 ,0.5);
+}
+#clock{
+    top: 100px; position: relative;
+    font-size: 110px; font-weight: bold;
+    text-align: center;
+}
+.left_top{
+    width: 500px; height: 175px;
+    margin-left: auto; margin-right: auto;
+    top: 100px;
+    position: relative;
+}
+#login-form{
+    top: 65px; position: relative;
+    text-align: center;
+}
+#login-form input{
+    width: 200px; height: 30px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+#login-form button{
+    width: 60px; height: 30px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: black;
+}
+#greeting{
+    top: 50px; position: relative;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+#quote{
+    width: 500px; height: 200px;
+    top: 100px; position: relative;
+    text-align: center; vertical-align: middle;
+    margin-left: auto; margin-right: auto;
+    font-size: 30px; font-weight: bold;
+    padding: 20px;
+}
+#qutoe span{
+    font-size: 50px;
+}
+#todo-form{
+    text-align: center;
+}
+#todo-form input{
+    width: 200px; height: 30px;
+    color: black;
+    text-align: center;
+}
+#right>ul{
+    padding-left: 40px; padding-top: 20px;
+}
+#right>ul>li{
+    font-size: 25px;
+}
+#right>ul>li button{
+    margin-left: 10px;
+}
