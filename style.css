@@ -90,3 +90,8 @@ body{
 #right>ul>li button{
     margin-left: 10px;
 }
+#github{
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+}
